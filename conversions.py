@@ -35,7 +35,32 @@ def convertKelvinToCelsius(kelvins):
     celsius = round(float(kelvins - 273.15), 2)
     return celsius
 
-print(convertCelsiusToFahrenheit(45))
-print(convertCelsiusToKelvin(66))
-print(convertFahrenheitToKelvin(80))
-print(convertFahrenheitToCelsius(212))
+def convertMilesToYards(miles):
+
+    yards = round(float(miles * 1760), 2)
+    return yards
+
+def convertMilesToMeters(miles):
+
+    meters = round(float(miles * 1609.34), 2)
+    return meters
+
+def convertYardsToMiles(yards):
+
+    miles = round(float(yards / 1760), 2)
+    return miles
+
+def convertYardsToMeters(yards):
+
+    meters = round(float(yards / 1.094), 2)
+    return meters
+
+def convertMetersToMiles(meters):
+
+    miles = round(float(meters / 1609), 2)
+    return miles
+
+def convertMetersToYards(meters):
+
+    yards = round(float(meters * 1.094), 2)
+    return yards
